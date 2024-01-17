@@ -84,3 +84,69 @@ body {
     padding-left: 10px;
     padding-bottom: 10px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .container .Navbar {
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: yellow;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .Navbar a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        padding: 7px 15px;
+        background-color: yellow;
+        font-size: 10px;
+    }
+
+    .container .primary h1 {
+        font-size: 20px;
+    }
+
+    .container .primary h2 {
+        font-size: 15px;
+    }
+
+    /* A */
+    #A h3 {
+        color: yellow;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    #A .Tab {
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
+
+    #A .Tab1 {
+        padding-left: 30px;
+        padding-bottom: 5px;
+        color: yellow;
+        font-size: 12px;
+    }
+
+    #A .TabParagraf {
+        padding-left: 40px;
+        padding-bottom: 5px;
+        color: white;
+        font-size: 10px;
+    }
+
+    #A .ol {
+        padding-left: 60px;
+        padding-bottom: 5px;
+        color: white;
+        font-size: 10px;
+    }
+}
