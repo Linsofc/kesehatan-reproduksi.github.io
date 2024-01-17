@@ -1,0 +1,86 @@
+html,
+*,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.container .Navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+.container .primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .primary h2 {
+    padding-top: 10px;
+}
+
+/* A */
+#A {
+    padding-top: 45px;
+    padding-left: 10px;
+}
+
+#A h3 {
+    color: yellow;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#A .Tab {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#A .Tab1 {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: yellow;
+}
+
+#A .TabParagraf {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#A .ol {
+    padding-left: 90px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* B */
+#B {
+    padding-top: 45px;
+    padding-left: 10px;
+}
+
+#B h3 {
+    color: yellow;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
